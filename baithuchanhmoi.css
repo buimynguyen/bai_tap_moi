@@ -6,7 +6,7 @@
 
 .container {
     display: flex;
-    flex-direction: row;
+    flex-direction: row ;
 }
 
 .hearder {
@@ -17,7 +17,7 @@
     display: flex;
     flex-wrap: wrap ;
     gap: 10px ;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
 }
 
@@ -26,61 +26,5 @@
     height: 200px;
     width: 200px ;
     text-align: center;
-    background-color: white;
-}
-
-.two {
-    border: 0px solid;
-    height: 200px;
-    width: 200px ;
-    text-align: center;
-    background-color: white;
-}
-
-.three {
-    border: 0px solid;
-    height: 200px;
-    width: 200px ;
-    text-align: center;
-    background-color: white;
-}
-
-.four {
-    border: 0px solid;
-    height: 200px;
-    width: 200px ;
-    text-align: center;
-    background-color: white;
-}
-
-.five {
-    border: 0px solid;
-    height: 200px;
-    width: 200px ;
-    text-align: center;
-    background-color: white;
-}
-
-.six {
-    border: 0px solid;
-    height: 200px;
-    width: 200px ;
-    text-align: center;
-    background-color: white;
-}
-
-.seven {
-    border: 0px solid;
-    height: 200px;
-    width: 200px ;
-    text-align: center;
-    background-color: white;
-}
-
-.eight {
-    border: 0px solid;
-    height: 200px ;
-    width: 200px ;
-    text-align: center;
-    background-color: white;
+    background-color: rgb(64, 248, 107);
 }
